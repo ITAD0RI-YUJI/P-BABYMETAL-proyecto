@@ -1,0 +1,8 @@
+.banner{
+    background-color: red;
+    background-image: url(https://i.pinimg.com/originals/eb/05/a6/eb05a687d4b47fe14ced3e67a44888ed.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/4;
+    border-radius: var(--radius);
+}

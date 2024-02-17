@@ -1,0 +1,39 @@
+.card{
+    border-radius: var(--radius);
+    background-color: var(--box-background);
+    transition: all .2s;
+    background-size: cover;
+}
+.card:hover .card__overlay{
+    opacity: 1;
+}
+.card:hover .overlay__text{
+    opacity: 1;
+    bottom: 0;
+}
+
+.card__momo{
+    background-image: url(../images/MOMOMETAL_Billboard_Japan_2023_29.jpg);
+    background-position: 20%;
+    background-position: center;
+}
+.card__momo.activeMomo{
+    background-image: none;
+}
+
+.card__su{
+    background-position: center;
+    background-image: url(../images/SU-METAL_Billboard_Japan_2023_29.jpg);
+}
+.card__su.activeSu{
+    background-image: none;
+}
+
+.card__moa{
+    /* grid-column: 5/7; */
+    background-image: url(../images/MOAMETAL_Billboard_Japan_2023_29.jpg);
+    background-position: center;
+}
+.card__moa.activeMoa{
+    background-image: none
+}

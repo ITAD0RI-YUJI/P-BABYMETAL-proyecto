@@ -1,0 +1,19 @@
+:root{
+    --tipografia: 'Raleway', sans-serif;
+    --background: #06040a;
+    --blue: #5857c5;
+    --box-background: #0e0e0e;
+    --violet: #c7b2e8;
+    --text: #FFFF;
+    --white: #FFFF;
+    --radius: 5px;
+}
+body{
+    background-color: var(--background);
+    font-family: var(--tipografia);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}

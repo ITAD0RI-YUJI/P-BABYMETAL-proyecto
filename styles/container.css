@@ -1,0 +1,20 @@
+.container{
+    /* background-color: rebeccapurple; */
+    transition: all .5s;
+    width: 600px;
+    height: 450px;
+    display: grid;
+    /* grid-template-columns: repeat(6 , 1fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 65% 35%;
+    gap: 10px;
+}
+.container.activeSu{
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.container.activeMomo{
+    grid-template-columns: 5fr 1fr 1fr;
+}
+.container.activeMoa{
+    grid-template-columns: 1fr 1fr 5fr;
+}
